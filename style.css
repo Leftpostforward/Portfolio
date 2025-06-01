@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f4f8;
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  button.clicked {
+    transform: translateX(100px) rotate(10deg);
+    background-color: #4caf50;
+    color: white;
+  }
+  
