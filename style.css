@@ -1,8 +1,57 @@
-#nameboard {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
+/* General page setup */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #14213D;
+    display: flex;
+    justify-content: center;
+}
+
+/*font section!*/
+/*title font*/
+.pinstripe {
+    font-family: 'Alumni Sans Pinstripe', cursive;
+    font-weight: 400;
+}
+/*body font*/
+.mulish{
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/* header */
+#mainheader {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 3rem 0 3rem 4rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+
+    width: 100vw;
+    height: 90vh;
+    box-sizing: border-box;
+}
+
+/* Header text */
+#headertext h1 {
+    font-size: 20rem;
+    margin: 0 0 0.5rem;
+}
+
+#headertext p {
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* header picture*/
+#pfp {
+    width: 50%;
     height: auto;
-    width: auto;
+    border-radius: 12px;           /* rectangle with soft corners */
+    object-fit: cover;
+    border: 3px solid #14213D;
+    margin-left: auto;    
 }
