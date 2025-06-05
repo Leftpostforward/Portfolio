@@ -53,6 +53,29 @@ body {
     z-index: 0; /* Behind other elements */
 }
 
+/*social links css*/
+#social-links {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    z-index: 2;
+}
+
+#social-links img {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1); /* makes icons white */
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+#social-links img:hover {
+    transform: scale(1.15);
+}
+
+
 /* photo(is literally just me) */
 #profilepicture {
     width: 20%;
