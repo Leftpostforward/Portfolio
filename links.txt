@@ -1,1 +1,2 @@
-https://coolors.co/353535-3c6e71-ffffff-d9d9d9-284b63
+#E0E0E0 text color
+margin attribtue is top right bottom left
