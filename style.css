@@ -21,6 +21,7 @@ body {
     font-family: 'Mulish', sans-serif;
     font-weight: 50;
 }
+
 /*header*/
 #mainheader {
     position: relative;
@@ -54,7 +55,6 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 0;
 }
-
 /*social links css*/
 #social-links {
     position: absolute;
@@ -76,8 +76,6 @@ body {
 #social-links img:hover {
     transform: scale(1.5);
 }
-
-
 /* photo(is literally just me) */
 #profilepicture {
     width: 20%;
@@ -88,7 +86,6 @@ body {
     aspect-ratio: 1 / 1;     
     z-index: 1;
 }
-
 /* Headertext */
 #headertext {
     width: 100%;
@@ -122,7 +119,6 @@ body {
 
 
 
-
 /* tabs stuff */
 #tab-container{
     display: flex;
@@ -137,7 +133,6 @@ body {
     justify-content:flex-start;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
-
 /* animating tabs */
 #tabs .tab::after {
     content: '';
@@ -182,7 +177,6 @@ body {
     cursor: pointer;
     transition: color 0.3s ease;
 }
-
 /*tab content*/
 #tab-content {
     padding: 2rem 4rem 0 4rem;
@@ -190,15 +184,36 @@ body {
     color: #ffffff;
     font-size: 1.5rem;
 }
-
 .tab-panel {
     display: none;
 }
-
 .tab-panel.active {
     display: block;
 }
-
 .paragraphspacing {
     margin-bottom: 0.8rem;
+}
+/*skills grid*/
+#skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+  justify-items: center;
+}
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem 2rem 2rem;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  width: 60%;
+  border-radius: 12px;
+}
+.skill-card img {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
 }
