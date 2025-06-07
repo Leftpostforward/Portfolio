@@ -35,7 +35,6 @@ body {
     height: 100vh;
     padding: 3rem;
     box-sizing: border-box;
-    gap: 1.5rem;
 
     color: #E0E0E0;
     background-color: #14213D;
@@ -52,7 +51,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(11, 11, 11, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     z-index: 0;
 }
 
@@ -75,7 +74,7 @@ body {
 }
 
 #social-links img:hover {
-    transform: scale(1.15);
+    transform: scale(1.5);
 }
 
 
@@ -99,13 +98,13 @@ body {
     z-index: 1;
 }
 #headertext h1 {
-    font-size: 10rem;
+    font-size: 13rem;
     width: fit-content;
     margin: 0 0 0.5rem;
 }
 
 #headertext p {
-    font-size: 2rem;
+    font-size: 3rem;
     width: fit-content;
     margin: 0;
 }
@@ -138,29 +137,7 @@ body {
     justify-content:flex-start;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
-#alignmentnav{
-    display: flex;
-    justify-content: center; 
-    width: 100vw;
-    height: 0.25vw;
-    background-color: #121212;
-}
-#navdivider {
-  width: 90vw;
-  height: 100%;
-  background-color: #fca311;
-  border-radius: 20px;
-}
-#tabs .tab {
-    background: none;
-    border: none;
-    color: #e5e5e5;
-    font-size: 2rem;
-    font-weight: 600;
-    position: relative;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
+
 /* animating tabs */
 #tabs .tab::after {
     content: '';
@@ -182,12 +159,36 @@ body {
   color: #ffffff;
 }
 
+#alignmentnav{
+    display: flex;
+    justify-content: center; 
+    width: 100vw;
+    height: 0.1vw;
+    background-color: #121212;
+}
+#navdivider {
+  width: 90vw;
+  height: 100%;
+  background-color: #fca311;
+  border-radius: 20px;
+}
+#tabs .tab {
+    background: none;
+    border: none;
+    color: #e5e5e5;
+    font-size: 2.25rem;
+    font-weight: 600;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
 
 /*tab content*/
 #tab-content {
-    padding: 2rem;
+    padding: 2rem 4rem 0 4rem;
     background-color: #121212;
     color: #ffffff;
+    font-size: 1.5rem;
 }
 
 .tab-panel {
@@ -196,4 +197,8 @@ body {
 
 .tab-panel.active {
     display: block;
+}
+
+.paragraphspacing {
+    margin-bottom: 0.8rem;
 }
