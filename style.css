@@ -10,6 +10,8 @@ body {
     min-height: 100vh;
 }
 
+
+
 /*font section!*/
 /*title font*/
 .outfit {
@@ -21,6 +23,8 @@ body {
     font-family: 'Mulish', sans-serif;
     font-weight: 50;
 }
+
+
 
 /*header*/
 #mainheader {
@@ -64,7 +68,6 @@ body {
     gap: 1rem;
     z-index: 2;
 }
-
 #social-links img {
     width: 30px;
     height: 30px;
@@ -72,7 +75,6 @@ body {
     transition: transform 0.2s ease;
     cursor: pointer;
 }
-
 #social-links img:hover {
     transform: scale(1.5);
 }
@@ -177,6 +179,9 @@ body {
     cursor: pointer;
     transition: color 0.3s ease;
 }
+
+
+
 /*tab content*/
 #tab-content {
     padding: 2rem 4rem 0 4rem;
@@ -193,12 +198,14 @@ body {
 .paragraphspacing {
     margin-bottom: 0.8rem;
 }
+
+
+
 /*skills grid*/
 #skills-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  padding: 2rem;
   justify-items: center;
 }
 .skill-card {
@@ -206,14 +213,24 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  padding-bottom: 1.5rem;
   color: #ffffff;
   background-color: #1a1a1a;
   width: 60%;
-  border-radius: 12px;
+  border-radius:10px;
+}
+.skill-card p{
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.skill-card h6{
+    margin: 0;
+    font-weight: 50;
+    margin-bottom: 0.5rem;
 }
 .skill-card img {
-  width: 48px;
-  height: 48px;
-  margin-bottom: 1rem;
+  width: 100px;
+  height: 100px;
 }
